@@ -15,3 +15,41 @@
 ```
 md c:\iso\1_eval\teoria
 ```
+## Situados en  C:\iso creamos t1
+
+```
+md c:\iso\1_eval\teoria\t1
+```
+## Situados en iso creamos practica, p1a, p1b
+
+```
+md c:\iso\1_eval\practica\p1a\p1b
+```
+
+## Nos situamos en p1b
+
+```
+>cd 1_eval\practica\p1a\p1b
+```
+
+## Creamos los directorios 3_eval, teoriaa, teoriab utilizando trayectorias relativas.
+
+```
+md ..\..\..\..\3_eval\teoriaa ..\..\..\..\3_eval\teoriab
+```
+
+## Crea y sitúate en el directorio 2_eval. Crea los directorios (prac1, prac2, prac3) con una única sentencia.
+
+```
+c:\iso>md 2_eval
+
+c:\iso>cd 2_eval
+
+c:\iso\2_eval>
+```
+
+## Crea los directorios (prac1, prac2, prac3) con una única sentencia.
+
+```
+md prac1 prac2 prac3
+```
