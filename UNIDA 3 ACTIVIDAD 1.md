@@ -78,6 +78,8 @@ c:\iso\2_eval\prac3>cd c:\iso
 c:\iso>
 
 ```
+<img width="413" height="268" alt="imagen" src="https://github.com/user-attachments/assets/5fff7937-24b7-4d27-a28a-968fa412c6fe" />
+
 ## 7.- Desde iso elimina los directorios (prac311, prac31, teoriab, teoriaa, t1, p1b, p1a) utilizando trayectorias absolutas.
 
 Vemos el árbol de directorios
@@ -85,5 +87,49 @@ Eliminamos p1a utilizando trayectorias absolutas, al eliminar p1a, se borra tamb
 
 ```
 c:\iso>rd /s c:\iso\1_eval\practica\p1a
+
+```
+<img width="458" height="171" alt="imagen" src="https://github.com/user-attachments/assets/8cf66de5-30ae-4d7c-a4c2-e00d9619262e" />
+
+## 8.- Accede al directorio 2_eval usando trayectoria relativa con una única sentencia.
+
+```
+c:\iso>cd 2_eval
+
+c:\iso\2_eval>
+
+```
+## 9.- Desde aquí cambia el nombre del directorio prac1 por el de prac4.
+
+```
+c:\iso\2_eval>rename prac1 prac4
+
+```
+## 10.- Desde aquí sitúa el directorio prac4 dentro del directorio prac3.
+
+```
+move prac2 prac
+
+```
+## 11.- Desde aquí elimina los directorios (1_eval, 3_eval)
+
+```
+c:\iso\2_eval>rd /s /q c:\iso\1_eval ..\3_eval
+
+```
+
+## 12.- Ejecuta la orden para visualizar el árbol de directorios y subdirectorios dependientes del directorio iso
+
+```
+c:\iso\2_eval>tree c:\iso
+
+```
+
+## 13.- Accede directamente a la raíz (a la unidad en la que te encuentras)
+
+```
+c:\iso\2_eval>cd\
+
+c:\> 
 
 ```
