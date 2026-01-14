@@ -53,3 +53,37 @@ c:\iso\2_eval>
 ```
 md prac1 prac2 prac3
 ```
+## 5.- Sitúate en el directorio prac3. Crea los directorios (prac31, prac311) usando trayectorias relativas.
+
+```
+Nos situamos en prac3
+
+c:\>cd iso\2_eval\prac3
+
+c:\iso\2_eval\prac3>
+```
+<img width="464" height="241" alt="imagen" src="https://github.com/user-attachments/assets/82bbd18b-2f2c-4998-8926-f4366157d0d9" />
+
+## Creamos prac31 y prac311 usando trayectoria relativa:
+
+``
+c:\iso\2_eval\prac3>md prac31\prac311
+
+```
+## 6.- Accede al directorio iso usando trayectoria absoluta con una única sentencia.
+
+```
+c:\iso\2_eval\prac3>cd c:\iso
+
+c:\iso>
+
+```
+## 7.- Desde iso elimina los directorios (prac311, prac31, teoriab, teoriaa, t1, p1b, p1a) utilizando trayectorias absolutas.
+
+Vemos el árbol de directorios
+Eliminamos p1a utilizando trayectorias absolutas, al eliminar p1a, se borra también p1b
+
+```
+c:\iso>rd /s c:\iso\1_eval\practica\p1a
+
+```
