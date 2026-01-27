@@ -9,7 +9,8 @@ c:\>md c:\smm\a c:\smm\b c:\smm\c c:\smm\d
 
 PS C:\> Set-Location c:\smm
 
-PS C:\smm> New-Item -itemtype Directory c:\smm\a, c:\smm\b, c:\smm\c, c:\smm\d
+PS C:\smm> New-Item -itemtype Directory c:\smm\a, c:\smm\b, c:\smm\c, c:\smm\d<img width="906" height="634" alt="imagen" src="https://github.com/user-attachments/assets/b0189232-8b22-4395-8009-5f25b333614a" />
+
 ```
 <img width="678" height="319" alt="imagen" src="https://github.com/user-attachments/assets/244d5898-29fe-4a19-a75f-a85b979295cb" />
 
@@ -37,3 +38,4 @@ PS C:\smm\d> Set-Location c:\smm\a\a2\a22\a221
 PS C:\smm\a\a2\a22\a221> New-Item -itemtype Directory ..\..\..\..\b\b1\b11\b111,
 
 ..\..\..\..\b\b1\b112
+
