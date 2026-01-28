@@ -28,14 +28,54 @@ PS C:\smm\d> New-Item -itemtype Directory ..\a\a1, ..\a\a2\a21, ..\a\a2\a22\a221
 
 ## 3.- Sitúate en A221 y desde allí crea B1, B11, B111, B112 con una única sentencia y utilizando trayectoria relativa.
 ```
-c:\smm\d>cd c:\smm\a\a2\a22\a221
-
-c:\smm\a\a2\a22\a221> md ..\..\..\..\b\b1\b11\b111 ..\..\..\..\b\b1\b112
-
 PS C:\smm\d> Set-Location c:\smm\a\a2\a22\a221
-```
 
 PS C:\smm\a\a2\a22\a221> New-Item -itemtype Directory ..\..\..\..\b\b1\b11\b111,
 
 ..\..\..\..\b\b1\b112
+```
 
+## 4.- Estando situado en A221, crea un fichero llamado lineas.txt en el directorio C que contenga el árbol de directorios dependiente del directorio A (incluyendo los subdirectorios).
+
+```
+PS C:\smm\a\a2\a22\a221> tree c:\smm\a > c:\smm\c\lineas.txt
+```
+<img width="444" height="34" alt="image" src="https://github.com/user-attachments/assets/667b0575-ff0b-466c-953a-1496ee16daef" />
+
+## 5.- Crea en D un fichero llamado Nombre.txt que contenga tu nombre y otro fichero llamado Apellido.txt
+
+```
+PS C:\smm\a\a2\a22\a221> Set-Content c:\smm\d\nombre.txt "Alex"
+
+PS C:\smm\a\a2\a22\a221> Set-Content c:\smm\d\apellido.txt "Lopez"
+```
+<img width="495" height="34" alt="image" src="https://github.com/user-attachments/assets/2bdca399-3e99-460c-996d-cd8eeac3d43a" />
+
+## 6.- Genera un fichero llamado union.txt en D que contenga nombre y tu primer apellido.
+
+```
+PS C:\smm\a\a2\a22\a221> Get-Content c:\smm\d\nombre.txt > c:\smm\d\union.txt
+
+PS C:\smm\a\a2\a22\a221> Get-Content c:\smm\d\apellido.txt >> c:\smm\d\union.txt
+```
+<img width="570" height="35" alt="image" src="https://github.com/user-attachments/assets/f99bf8c2-a7d8-472a-abaa-e8a0e52bde15" />
+<img width="570" height="50" alt="image" src="https://github.com/user-attachments/assets/1fa3b81e-75b7-4e4f-963a-ce90a7f6319e" />
+
+## 7.- Mueve el fichero union.txt a A21
+
+```
+PS C:\smm\a\a2\a22\a221> Move-Item c:\smm\d\union.txt c:\smm\a\a2\a21
+```
+<img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/ceadf8af-fd3c-4b1b-acc9-1b76666242c1" />
+
+## 8.- Mueve el directorio A2 dentro de C.
+
+```
+Set-Location c:\smm
+
+Move-Item c:\smm\a\a2 c:\smm\c
+```
+
+<img width="560" height="41" alt="image" src="https://github.com/user-attachments/assets/d7f18bcf-fd46-4736-ab4b-123f3922d65d" />
+
+##
