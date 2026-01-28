@@ -120,4 +120,10 @@ Copy-Item c:\smm\nuevoc\lineas.txt c:\smm\d\nlineasend.txt
 ```
 <img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/b366859b-fd91-4d5f-8945-b519d7f4b902" />
 
+## 15.- Muestra el árbol de directorios (incluyendo ficheros) que depende del directorio smm.
+
+```
+tree /f c:\smm
+```
+<img width="560" height="280" alt="image" src="https://github.com/user-attachments/assets/40dd6806-3eaf-47e1-9946-9cf581dc7ed4" />
 
