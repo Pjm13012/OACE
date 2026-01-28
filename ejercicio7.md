@@ -45,3 +45,17 @@ New-LocalUser
  -FullName: "Usuario de PowerShell" 
  -Description: "Cuenta creada desde PowerShell" 
  -Password: $Password
+
+## 🔹 Paso 5: Añadir el usuario a un grupo
+
+## Para añadirlo al grupo Usuarios:
+
+```
+Add-LocalGroupMember -Group "Users" -Member "usuario_ps"
+```
+
+O al grupo Administradores ( solo si es necesario):
+
+```
+Add-LocalGroupMember -Group "Administrators" -Member "usuario_ps"
+```
