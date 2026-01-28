@@ -91,3 +91,33 @@ Rename-Item c:\smm\c\a2\a21\union.txt nuevaunion.txt
 Copy-Item c:\smm\d\nombre.txt c:\smm\ a
 ```
 <img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/04e4844a-4c8d-435e-aa6c-883ceb70491c" />
+
+## 11.- Elimina el directorio A (sin usar el parámetro /s).
+
+```
+Remove-Item c:\smm\a\nombre.txt, c:\smm\a\a1, c:\smm\a
+```
+<img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/56c88803-436b-4c14-a02e-b7939e1c7114" />
+
+## 12.- Cambia el nombre del fichero Apellido.txt por el de miApellido.doc
+
+```
+Rename-Item c:\smm\d\apellido.txt miapellido.doc
+```
+<img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/9718ddfd-7b98-4690-9de1-f44fc6547ed6" />
+
+## 13.- Cambia el nombre del directorio C por el de nuevoC
+
+```
+Move-Item c:\smm\c c:\smm\nuevoc
+```
+<img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/f5b3aabe-6744-457b-b5c5-a1566e531b1d" />
+
+## 14.- Copia el fichero lineas.txt a D con el nombre nlineasend.txt
+
+```
+Copy-Item c:\smm\nuevoc\lineas.txt c:\smm\d\nlineasend.txt
+```
+<img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/b366859b-fd91-4d5f-8945-b519d7f4b902" />
+
+
