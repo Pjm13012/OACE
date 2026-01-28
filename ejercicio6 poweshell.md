@@ -78,4 +78,16 @@ Move-Item c:\smm\a\a2 c:\smm\c
 
 <img width="560" height="41" alt="image" src="https://github.com/user-attachments/assets/d7f18bcf-fd46-4736-ab4b-123f3922d65d" />
 
-##
+## 9.- Cambia el nombre del fichero union.txt por el de nuevaunion.txt
+
+```
+Rename-Item c:\smm\c\a2\a21\union.txt nuevaunion.txt
+```
+<img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/91cbb181-969b-4bc4-b838-104798523d1c" />
+
+## 10.- Copia el fichero Nombre.txt al directorio A.
+
+```
+Copy-Item c:\smm\d\nombre.txt c:\smm\ a
+```
+<img width="560" height="28" alt="image" src="https://github.com/user-attachments/assets/04e4844a-4c8d-435e-aa6c-883ceb70491c" />
