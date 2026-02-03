@@ -96,3 +96,26 @@ Get-LocalUser -Name "usuario_ps"
 2. Escribe el siguiente contenido:
 
 NombreUsuario,NombreCompleto,Descripcion,Grupo usuario1,Usuario Uno,Cuenta de pruebas,Usuarios usuario2,Usuario Dos,Cuenta de pruebas,Usuarios usuario3,Usuario Tres,Cuenta administrativa,Administradores 
+
+## ▶️ PARTE 3: EJECUTAR EL SCRIPT
+
+## 🔹 Paso 4: Permitir ejecución de scripts (si es necesario)
+
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
+```
+## 🔹 Paso 5: Ejecutar el script
+
+```
+cd C:\Scripts
+.\crear_usuarios.ps1
+```
+<img width="370" height="216" alt="imagen" src="https://github.com/user-attachments/assets/f6b7fc34-8865-4b5f-befb-da693a2b5cac" />
+
+## 📝 PARTE 4: EXPORTAR LA LISTA DE USUARIOS A CSV
+
+## 🔹 Paso 6: Exportar usuarios locales
+
+Ejecuta el siguiente comando:
+
+Get-LocalUser | Select-Object Name, FullName, Enabled, LastLogon | Export-Csv "C:\Scripts\usuarios_creados.csv" -NoTypeInformation 
