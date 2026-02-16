@@ -61,3 +61,10 @@ rm -r /home/user/SMM/2_eval/prac3/prac31 /home/user/SMM/3_eval/teoriaa/ /home/us
 ```
 cd 2_eval/
 ```
+<img width="1009" height="41" alt="image" src="https://github.com/user-attachments/assets/a9a336f5-f885-4d1d-91d6-9e205ca1e9a9" />
+
+## 9.- Desde aquí cambia el nombre del directorio prac1 por el de prac4. (El comando sería el mv →investiga en la ayuda de Linux. Recuerda que el comando de ayuda es man).
+
+```
+mv prac1 prac4
+```
