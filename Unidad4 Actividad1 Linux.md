@@ -68,3 +68,28 @@ cd 2_eval/
 ```
 mv prac1 prac4
 ```
+<img width="461" height="48" alt="image" src="https://github.com/user-attachments/assets/affec895-207c-452e-a93e-b60d19ec219f" />
+
+## 10.- Desde aquí sitúa el directorio prac4 dentro del directorio prac3.
+```
+mv prac4 prac3
+```
+<img width="442" height="50" alt="image" src="https://github.com/user-attachments/assets/f22a2f08-5d52-4042-9bc0-4a352c4166dd" />
+
+## 11.- Desde aquí elimina los directorios (1_eval, 3_eval)
+```
+rm –r ../1eval ../3eval
+```
+<img width="722" height="258" alt="image" src="https://github.com/user-attachments/assets/36d70c01-b200-41a0-b103-fad65aa4a1e0" />
+
+## 12.- Consulta la ayuda del comando cal (Recuerda que el comando de ayuda es man). Utiliza dicho comando para visualizar el calendario del mes de enero de 2021.
+```
+man cal
+```
+<img width="983" height="497" alt="image" src="https://github.com/user-attachments/assets/248455d3-c346-4625-80dd-b7ae8b4d4683" />
+
+*SI pide instalar cal --> apt install ncal
+
+## 13.- Ejecuta el comando cal y redirecciónalo a un fichero llamado calendario.
+
+cal > calendario
