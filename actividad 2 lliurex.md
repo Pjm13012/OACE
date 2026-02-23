@@ -25,4 +25,10 @@ echo -e "Fernando\nZoraida\nAntonia" | sort > A21/o1
 <img width="826" height="329" alt="image" src="https://github.com/user-attachments/assets/1175d32c-6fd4-46a8-a76c-031959dca671" />
 No me deja redireccionarlo
 
+## 3.- Crea una copia de A dentro de D con el nombre nuevoA. A continuación elimina A.
+```
+cp -r A D
+```
+<img width="729" height="46" alt="image" src="https://github.com/user-attachments/assets/7e73e0b9-c52a-4a43-8dc0-1a85664e60bc" />
+
 ## 
