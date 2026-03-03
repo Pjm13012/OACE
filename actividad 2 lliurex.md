@@ -22,8 +22,8 @@ Finalmente redireccionamos a un archivo y en otra orden se mueve o1 a C/Orden
 ```
 echo -e "Fernando\nZoraida\nAntonia" | sort > A21/o1
 ```
-<img width="826" height="329" alt="image" src="https://github.com/user-attachments/assets/1175d32c-6fd4-46a8-a76c-031959dca671" />
-No me deja redireccionarlo
+<img width="890" height="140" alt="image" src="https://github.com/user-attachments/assets/09a79ebb-b301-4dd6-b29e-1b6aa791881b" />
+
 
 ## 3.- Crea una copia de A dentro de D con el nombre nuevoA. A continuación elimina A.
 ```
@@ -31,4 +31,20 @@ cp -r A D
 ```
 <img width="729" height="46" alt="image" src="https://github.com/user-attachments/assets/7e73e0b9-c52a-4a43-8dc0-1a85664e60bc" />
 
-## 
+## 4.- ¿Cuántas líneas contiene el fichero o1?¿Cuantas palabras?¿Cuantos caracteres?
+
+<img width="890" height="235" alt="image" src="https://github.com/user-attachments/assets/0548be85-f3ff-474c-8815-c5a57bfb4910" />
+
+## 5.- Crea en D un fichero llamado Nombre que contenga tu nombre y otro fichero llamado Apellido que contenga tu primer apellido.
+
+<img width="890" height="333" alt="image" src="https://github.com/user-attachments/assets/06bf6dc5-7d88-4935-ae98-8cb8c51d041e" />
+
+## 6.- Pon todos los permisos al propietario del fichero Nombre (mantén los permisos que tenían grupo y otros). Utiliza sistema octal.
+
+
+## 7.- Pon sólo permiso de lectura (al propietario, grupo y otros) al fichero Apellido sin utilizar sistema octal.
+
+
+## 8.- Elimina A1, A2 y A3 con trayectoria relativa y utilizando comodines.
+
+
