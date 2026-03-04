@@ -40,12 +40,14 @@ cp -r A D
 <img width="890" height="333" alt="image" src="https://github.com/user-attachments/assets/06bf6dc5-7d88-4935-ae98-8cb8c51d041e" />
 
 ## 6.- Pon todos los permisos al propietario del fichero Nombre (mantén los permisos que tenían grupo y otros). Utiliza sistema octal.
-
+(no se hace)
 
 ## 7.- Pon sólo permiso de lectura (al propietario, grupo y otros) al fichero Apellido sin utilizar sistema octal.
+(no se hace)
 
 
 ## 8.- Elimina A1, A2 y A3 con trayectoria relativa y utilizando comodines.
+(no se hace)
 
 
 ## 9.- Mueve nuevoA dentro de C. Una vez movido cámbiale el nombre por A. Cambia el nombre de Apellido por el de apellido.
@@ -53,13 +55,17 @@ cp -r A D
 <img width="1024" height="503" alt="image" src="https://github.com/user-attachments/assets/3d72b2db-f994-4fae-8ea0-c0a51a010d4a" />
 
 ## 10.- Crea dentro de A los siguientes directorios “pasta”,”pasto”,”casta”, “casto”, “pasmo”, “casmo”
+(no se hace)
 
 
 ## 11.- Elimina todos los ficheros que existan
+(no se hace)
 
 ## 12.- Elimina todo lo que dependa de smm y con una única sentencia
+(no se hace)
 
 ## 13.- Crea un fichero vacío llamado vacio.txt (touch)
+(no se hace)
 
 ## 14.- Busca en el fichero Nombre cuantas “r” hay dentro del fichero. (revisa el comando grep -c)
 
