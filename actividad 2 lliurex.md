@@ -48,3 +48,19 @@ cp -r A D
 ## 8.- Elimina A1, A2 y A3 con trayectoria relativa y utilizando comodines.
 
 
+## 9.- Mueve nuevoA dentro de C. Una vez movido cámbiale el nombre por A. Cambia el nombre de Apellido por el de apellido.
+
+<img width="1024" height="503" alt="image" src="https://github.com/user-attachments/assets/3d72b2db-f994-4fae-8ea0-c0a51a010d4a" />
+
+## 10.- Crea dentro de A los siguientes directorios “pasta”,”pasto”,”casta”, “casto”, “pasmo”, “casmo”
+
+
+## 11.- Elimina todos los ficheros que existan
+
+## 12.- Elimina todo lo que dependa de smm y con una única sentencia
+
+## 13.- Crea un fichero vacío llamado vacio.txt (touch)
+
+## 14.- Busca en el fichero Nombre cuantas “r” hay dentro del fichero. (revisa el comando grep -c)
+
+<img width="1024" height="28" alt="image" src="https://github.com/user-attachments/assets/b4589563-4d07-413b-97c4-596f5e121182" />
