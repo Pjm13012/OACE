@@ -62,6 +62,7 @@
 
 ## 14. Mete al usuario mbappeXX a los grupos realmadrid y fcbarcelona
 
+<img width="955" height="36" alt="image" src="https://github.com/user-attachments/assets/4954eaf2-24e2-4994-8e96-389487c17e0c" />
 
 
 ## 15. Muestra que has creado mbappexx, su carpeta de referencia, y que pertenece a los grupos realmadrid y fcbarcelona
